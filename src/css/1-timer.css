@@ -30,6 +30,8 @@ button[data-start] {
     border-radius: 8px;
     background-color: #4e75ff;
     border: none;
+    transition: background-color 300ms,
+            color 300ms;
 }
 
 button[data-start]:disabled {
@@ -37,9 +39,6 @@ button[data-start]:disabled {
     color: #989898;
 } 
 
-button[data-start]:hover {
-    background: #6c8cff;
-}
 
 .timer {
     display: flex;
